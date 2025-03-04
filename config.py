@@ -15,8 +15,8 @@ DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002253192440"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002216382990"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002267601040"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
@@ -56,7 +56,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only File Share Bot ! If you want to use then contact my owner -> @shimps_bot"
+USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only File Share Bot ! If you want to use then contact my owner -> @TalkwithSupport_bot"
 
 START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI Can Store Private Files And Other Users Can Access It From Special Link.")
 
